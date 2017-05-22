@@ -1,0 +1,30 @@
+{
+  "name": "drivers-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "cors": "^2.8.3",
+    "google-map-react": "^0.24.0",
+    "leaflet": "^1.0.3",
+    "lodash": "^4.17.4",
+    "mapbox-gl": "^0.37.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-leaflet": "^1.1.7",
+    "socket.io": "^2.0.1",
+    "socket.io-client": "^2.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "react-scripts": "1.0.1"
+  },
+  "scripts": {
+    "server": "node server.js", 
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
